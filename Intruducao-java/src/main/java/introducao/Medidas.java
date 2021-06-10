@@ -1,10 +1,10 @@
-// notem do pacote
+// 1 do Pacote
 package introducao;
 
-// referenciar as bibliotecas
+// 2 Referenciar as bibliotecas
 
 
-// clases
+// 3 clsses
 public class Medidas {
 
      // atributos - caracteristicas
@@ -15,7 +15,7 @@ public class Medidas {
 
         // calculo de area  - exemplo: o tamanho do tapete ou piso.
      calcularAreaModoCompacto();
-     calcularAreaModoExtenso();
+     CalcularAreaModoExtenso();
 
 
 
@@ -47,8 +47,8 @@ public static void calcularAreaModoCompacto(){
 
     System.out.println( "Calculo e áreas modo compacto!!");
 
-    System.out.println("para a largura de " + largura + "para o comprimento de " + comprimento + "resulta é: " + largura * comprimento + "M2"  );
-    System.out.println("área de " + resultado);
+    System.out.println("para a largura de " + largura + " para o comprimento de " + comprimento + " resulta é: " + largura * comprimento + "M2"  );
+   System.out.println("área de " + largura*comprimento);
 }
 
 }
